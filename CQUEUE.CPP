@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<conio.h>
 
+//Program to perform insertion, deletion and traversal in a circular array.
+
 struct node
 {
 int data;
@@ -71,7 +73,7 @@ cout<<t->data;
 }
 }
 
-void main()
+int main()
 {
 clrscr();
 int ch=0;
@@ -97,6 +99,7 @@ cout<<"good bye";
 }
 }
 getch();
+return 0;  
 }
 
 
